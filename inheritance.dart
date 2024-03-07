@@ -39,9 +39,9 @@ class animal {
 }
 
 // let us create the child class
-class dog extends Animal {
+//class dog extends Animal {
   // let us give it a function and displaying the class
-  void barks() {
-    print("Dog barks");
-  }
-}
+  //void barks() {
+    //print("Dog barks");
+  //}
+//}
