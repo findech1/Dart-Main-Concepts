@@ -1,9 +1,11 @@
 import 'dart:io';
-import 'dart:math';
 
 void main() {
   print("What is your name?:");
-  print("My name is ");
+
+  // Get the user's name as input
   var username = stdin.readLineSync();
-  print("My name is ");
+
+  // Print the user's name
+  print("Your name is $username");
 }
