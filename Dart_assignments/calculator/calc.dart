@@ -14,7 +14,7 @@ void main() {
     print('6. Square Root');
     print('7. Factorial');
     print('8. Exit');
-
+// requesting input from the user
     stdout.write('Enter your choice (1-8): ');
     var choice = int.parse(stdin.readLineSync()!);
 
@@ -22,7 +22,7 @@ void main() {
       print('Thank you for using the calculator. Goodbye!');
       break;
     }
-
+// switch statement
     double result;
     switch (choice) {
       case 1:
